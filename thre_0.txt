@@ -1,0 +1,76 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  y_cos   R-squared:                       0.029
+Model:                            OLS   Adj. R-squared:                  0.029
+Method:                 Least Squares   F-statistic:                 1.403e+04
+Date:                Thu, 13 Apr 2023   Prob (F-statistic):               0.00
+Time:                        21:58:52   Log-Likelihood:             3.1707e+05
+No. Observations:              464166   AIC:                        -6.341e+05
+Df Residuals:                  464164   BIC:                        -6.341e+05
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.2182      0.000    713.894      0.000       0.218       0.219
+smile_cos      0.0663      0.001    118.455      0.000       0.065       0.067
+==============================================================================
+Omnibus:                    21960.105   Durbin-Watson:                   1.304
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            25202.125
+Skew:                           0.560   Prob(JB):                         0.00
+Kurtosis:                       3.224   Cond. No.                         3.79
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  y_cos   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                  0.000
+Method:                 Least Squares   F-statistic:                     150.7
+Date:                Thu, 13 Apr 2023   Prob (F-statistic):           1.26e-34
+Time:                        21:58:52   Log-Likelihood:             3.1023e+05
+No. Observations:              464166   AIC:                        -6.205e+05
+Df Residuals:                  464164   BIC:                        -6.204e+05
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.1446      0.008     17.250      0.000       0.128       0.161
+atomic_cos     0.1054      0.009     12.274      0.000       0.089       0.122
+==============================================================================
+Omnibus:                    23232.130   Durbin-Watson:                   1.263
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            26860.692
+Skew:                           0.580   Prob(JB):                         0.00
+Kurtosis:                       3.206   Cond. No.                         92.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  y_cos   R-squared:                       0.029
+Model:                            OLS   Adj. R-squared:                  0.029
+Method:                 Least Squares   F-statistic:                     7033.
+Date:                Thu, 13 Apr 2023   Prob (F-statistic):               0.00
+Time:                        21:58:52   Log-Likelihood:             3.1708e+05
+No. Observations:              464166   AIC:                        -6.342e+05
+Df Residuals:                  464163   BIC:                        -6.341e+05
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.2663      0.008     31.995      0.000       0.250       0.283
+smile_cos      0.0668      0.001    117.944      0.000       0.066       0.068
+atomic_cos    -0.0496      0.009     -5.790      0.000      -0.066      -0.033
+==============================================================================
+Omnibus:                    21994.743   Durbin-Watson:                   1.304
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            25248.218
+Skew:                           0.560   Prob(JB):                         0.00
+Kurtosis:                       3.227   Cond. No.                         97.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
